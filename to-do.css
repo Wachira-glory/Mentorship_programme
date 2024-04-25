@@ -1,0 +1,120 @@
+.navbar {
+    background-color: #230238;
+    color: white;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  body{
+    background-color: #B6A4CB;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  .create_account{
+    color: white;
+  }
+  .navbar li {
+    margin-right: 20px;
+    
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    
+   
+  }
+  
+  .mentor-details {
+    display: flex;
+    align-items: center;
+    gap: 40%;
+}
+.mentor-picture img {
+    max-width: 100%;
+    height: auto;
+}
+#message-button{
+  width: 14%;
+  background-color: #BCBDBF;
+  padding: 15px;
+  border-radius: 26px;
+
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a.active {
+  color: #EC008C;
+  font-weight: bold;
+}
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f5f5f5;
+    margin-right: 12%;
+    margin-left: 6%;
+}
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+#toDoForm {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#toDoInput {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    
+}
+
+button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6a0dad;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #550984;
+}
+
+#toDoList {
+    list-style-type: none;
+    padding: 0;
+
+    
+}
+
+#toDoList li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#toDoList li label {
+    flex: 1;
+    margin-left: 10px;
+}
+
+#toDoList li input[type="checkbox"] {
+    margin-right: 10px;
+}

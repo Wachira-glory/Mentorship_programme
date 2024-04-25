@@ -1,0 +1,99 @@
+
+.navbar {
+    background-color: #230238;
+    color: white;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  /* body{
+    background-color: #B6A4CB;
+    margin-left: 3%;
+    margin-right: 3%;
+  } */
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  .create_account{
+    color: white;
+  }
+  .navbar li {
+    margin-right: 20px;
+    
+  }
+ .nyjwork{
+    color: white;
+ }
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    
+   
+  }
+  .navbar a.active {
+    color: #EC008C;
+    font-weight: bold;
+  }
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #B6A4CB;
+    margin-right: 12%;
+    margin-left: 6%;
+}
+
+h1 {
+    color: #6a0dad;
+    margin-bottom: 20px;
+}
+.medal{
+    border-radius: 70%;
+    width: 180%;
+}
+.achievement_page{
+    display: flex;
+    gap:30%;
+}
+
+#achievements-form {
+    margin-bottom: 20px;
+}
+
+#achievements-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#achievements-list li {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: #e8dff0;
+    color: #333;
+}
+
+input[type="text"] {
+    width: 198%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+button[type="submit"] {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6a0dad;
+    color: #fff;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #550984;
+}

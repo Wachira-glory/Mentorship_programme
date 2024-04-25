@@ -1,0 +1,63 @@
+.navbar {
+    background-color: #230238;
+    color: white;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  body{
+    background-color: #B6A4CB;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  .create_account{
+    color: white;
+  }
+  .navbar li {
+    margin-right: 20px;
+    
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    
+   
+  }
+  .mentor-details {
+    display: flex;
+    align-items: center;
+    gap: 40%;
+}
+.mentor-picture img {
+    max-width: 100%;
+    height: auto;
+}
+#message-button{
+  width: 54%;
+  background-color: #BCBDBF;
+  padding: 15px;
+  border-radius: 26px;
+
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a.active {
+  color: #EC008C;
+  font-weight: bold;
+}
+.successphotos{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 12%;
+  }

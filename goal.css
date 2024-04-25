@@ -1,0 +1,79 @@
+.navbar {
+    background-color: #230238;
+    color: white;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+
+  }
+  body{
+    background-color: #B6A4CB;
+    margin-left: 3%;
+    /* margin-right: 3%;background-image: url(images/doubt.webp);
+    background-repeat: no-repeat;
+    object-fit: cover; */
+  
+  }
+
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  .create_account{
+    color: white;
+  }
+  .navbar li {
+    margin-right: 20px;
+    
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    
+   
+  }
+  .navbar a.active {
+    color: #EC008C;
+    font-weight: bold;
+  }
+
+.goal-row {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.short-term, .long-term {
+    flex: 1;
+    padding: 60px;
+    border: 1px solid #ccc;
+    background-color: lightslategray;
+    margin: 10px;
+    
+}
+
+button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    background-color: #EC008C;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #550984;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 15px;
+}
+  
