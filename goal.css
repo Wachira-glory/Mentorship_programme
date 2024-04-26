@@ -1,11 +1,13 @@
 .navbar {
-    background-color: #230238;
-    color: white;
-    padding: 40px;
-    display: flex;
-    justify-content: space-between;
-
-  }
+  background-color: #230238;
+  color: white;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: -4%;
+  margin-top: -2%;
+  width: 99%;
+}
   body{
     background-color: #B6A4CB;
     margin-left: 3%;
@@ -54,6 +56,9 @@
     margin: 10px;
     
 }
+#message-button{
+  margin-left: 47%;
+}
 
 button {
     padding: 8px 16px;
@@ -76,4 +81,89 @@ ul {
 li {
     margin-bottom: 15px;
 }
+@media (min-width:400px) and (max-width:800px){
+  .goal-row {
+    display: block;
+    justify-content: space-around;
+    
+}
+.navbar {
+  background-color: #230238;
+  color: white;
+  padding: 40px;
+  display: flex;
+  gap: 0.000001%;
+  justify-content: space-between;
+  margin-top: -6%;
+
+}
+}
+@media (min-width:200px) and (max-width:400px){
+  .goal-row {
+    display: block;
+    justify-content: space-around;
+    
+}
+.navbar {
+  background-color: #230238;
+  color: white;
+  padding: 40px;
+  display: flex;
+  gap: 0.000001%;
+  justify-content: space-between;
+  margin-top: -6%;
+
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  gap: 0.000001%;
   
+ 
+}
+.navbar li {
+  margin-right: 6px;
+  gap: 0.000001%;
+  
+}
+}
+@media (min-width:280px) and (max-width:360px){
+  .goal-row {
+    display: block;
+    justify-content: space-around;
+    
+}
+.navbar {
+  background-color: #230238;
+  /* background-size: cover; */
+  color: white;
+  padding: 15px 34px;
+  display: flex;
+  justify-content: space-between;
+  width: 112%;
+  margin-top: -3%;
+  margin-left: -35%;
+  font-size: 12%;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  gap: 0.000001%;
+  
+ 
+}
+.navbar li {
+  /* margin-right: -9px; */
+  margin-left: -9px;
+  
+  
+}
+.short-term, .long-term {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: lightslategray;
+  /* margin: 10px; */
+  
+}
+}

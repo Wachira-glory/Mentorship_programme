@@ -1,21 +1,23 @@
 
 .navbar {
-    background-color: #230238;
-    color: white;
-    padding: 40px;
-    display: flex;
-    justify-content: space-between;
-  }
-  /* body{
-    background-color: #B6A4CB;
-    margin-left: 3%;
-    margin-right: 3%;
-  } */
-  
+  background-color: #230238;
+  color: white;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: -12%;
+  margin-top: -2%;
+  width: 110%;
+}
+body{
+  background-color: #B6A4CB;
+  margin-left: 3%;
+  margin-right: 3%;
+}
   .navbar ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
     display: flex;
   }
   .create_account{
@@ -38,13 +40,13 @@
     color: #EC008C;
     font-weight: bold;
   }
-body {
+/* body {
     font-family: Arial, sans-serif;
-    padding: 20px;
+    padding: 10px;
     background-color: #B6A4CB;
-    margin-right: 12%;
-    margin-left: 6%;
-}
+    /* margin-right: 12%;
+    margin-left: 6%; 
+} */
 
 h1 {
     color: #6a0dad;
@@ -97,3 +99,161 @@ button[type="submit"] {
 button[type="submit"]:hover {
     background-color: #550984;
 }
+@media  (min-width:280px) and (max-width:400px) {
+  .achievement_page{
+    display: block;
+  }
+  .navbar {
+    background-color: #230238;
+    /* background-size: cover; */
+    color: white;
+    padding: 15px 34px;
+    display: flex;
+    justify-content: space-between;
+    width: 120%;
+    margin-top: -25%;
+    margin-left: -45%;
+  }
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 12%;
+    margin-left: -83%;
+  }
+  .navbar li {
+    margin-right: -85px;
+    
+  }
+  .medal{
+    border-radius: 70%;
+    width: 50%;
+    margin-left: 19%;
+  }
+body{
+  background-color: #B6A4CB;
+  /* margin-left: 3%;
+  margin-right: 3%; */
+}
+input[type="text"] {
+  width: 78%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+ 
+}
+@media  (min-width:401px) and (max-width:600px){ 
+.medal{
+  border-radius: 70%;
+  width: 50%;
+}
+
+body{
+  background-color: #B6A4CB;
+  /* margin-left: 3%;
+  margin-right: 3%; */
+}
+.achievement_page{
+  display: block;
+
+}
+h1{
+  margin-top: 18%;
+}
+.medal{
+  border-radius: 70%;
+  width: 80%;
+  margin-left: 13%;
+}
+input[type="text"] {
+  width: 68%;
+  margin-left: 13%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+button[type="submit"] {
+  margin-left: 13%;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #6a0dad;
+  color: #fff;
+  cursor: pointer;
+}
+.navbar {
+  background-color: #230238;
+  background-size: cover;
+  color: white;
+  padding: 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-bottom: -13%;
+}
+  
+  nav ul{
+    list-style: none;
+    margin: 0 2px;
+    padding: 0;
+  }
+  
+  nav li {
+     display: inline-block;
+     padding: 5px 5px;
+     margin-left: -19%;
+     font-size: 12%;
+  }
+  
+  nav a {
+    font-weight: normal;
+    padding: 5px 5px;
+    font-size: .80em;
+  }
+/* body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #B6A4CB;
+
+} */
+label{
+  margin-left: 13%;
+}
+}
+@media  (min-width:700px) and (max-width:1200px){
+  .achievement_page{
+    display: block;
+  }
+  .medal{
+    border-radius: 70%;
+    width: 80%;
+    margin-left: 13%;
+  }
+  input[type="text"] {
+    width: 28%;
+    margin-left: 13%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  button[type="submit"] {
+    margin-left: 13%;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6a0dad;
+    color: #fff;
+    cursor: pointer;
+  }
+  label{
+    margin-left: 13%;
+  }
+}
+  
