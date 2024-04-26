@@ -54,7 +54,8 @@ h1 {
 }
 .medal{
     border-radius: 70%;
-    width: 180%;
+    width: 80%;
+    margin-left: 13%;
 }
 .achievement_page{
     display: flex;

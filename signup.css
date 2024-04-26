@@ -3,7 +3,8 @@ body {
     background-color: #f2f2f2;
     background-image: url(images/black_pattern.jpeg);
     background-repeat: no-repeat;
-    background-size: 300% 500%;
+    background-size: cover;
+    background-position: center;
   }
   
   .container {

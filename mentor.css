@@ -37,11 +37,17 @@
   .mentor-details {
     display: flex;
     align-items: center;
-    gap: 40%;
+    gap: 30%;
+    margin-left: 10%;
+   
 }
 .mentor-picture img {
-    max-width: 100%;
+    width: 180%;
     height: auto;
+    size: cover;
+    position: center;
+    object-fit: cover;
+    margin-right:34% ;
 }
 #message-button{
   width: 54%;
