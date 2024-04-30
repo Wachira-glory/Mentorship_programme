@@ -45,7 +45,6 @@
 .goal-row {
     display: flex;
     justify-content: space-around;
-    
 }
 
 .short-term, .long-term {
@@ -149,8 +148,6 @@ li {
   color: white;
   text-decoration: none;
   gap: 0.000001%;
-  
- 
 }
 .navbar li {
   /* margin-right: -9px; */
@@ -166,4 +163,52 @@ li {
   /* margin: 10px; */
   
 }
+}
+@media (min-width:360px) and (max-width:420px){
+  .navbar {
+    background-color: #230238;
+    /* background-size: cover; */
+    color: white;
+    padding: 10px 34px;
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    margin-top: -3%;
+    margin-left: 3%;
+    font-size: 12%;
+  }
+  .short-term, .long-term {
+    /* flex: 1; */
+    padding: 1px;
+    border: 0.25px solid #ccc;
+    background-color: lightslategray;
+    /* margin: 10px; */
+    width: 115%;
+    
+  }
+  body{
+    background-color: #B6A4CB;
+    margin-left: -2%;
+    width: 80.5%;
+    /* margin-right: 3%;background-image: url(images/doubt.webp);
+    background-repeat: no-repeat;
+    object-fit: cover; */
+  
+  }
+  .navbar li {
+    /* margin-right: -9px; */
+    margin-right: -35px;
+   
+    
+  }
+  .navbar ul {
+    list-style-type: none;
+    /* margin: 0; */
+    padding: 10px 23px;
+    display: flex;
+  }
+  .navbar a {
+    color: white;
+    text-decoration: none;
+  }
 }

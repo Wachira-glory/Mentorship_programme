@@ -97,164 +97,196 @@ button[type="submit"] {
     cursor: pointer;
 }
 
-button[type="submit"]:hover {
+/* button[type="submit"]:hover {
     background-color: #550984;
-}
-@media  (min-width:280px) and (max-width:400px) {
-  .achievement_page{
+} */
+@media (min-width:200px) and (max-width:400px){
+  .goal-row {
     display: block;
-  }
+    justify-content: space-around;
+    
+}
+.navbar {
+  background-color: #230238;
+  color: white;
+  padding: 40px;
+  display: flex;
+  gap: 0.000001%;
+  justify-content: space-between;
+  margin-top: -6%;
+
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  gap: 0.000001%;
+  
+ 
+}
+.navbar li {
+  margin-right: 6px;
+  gap: 0.000001%;
+  
+}
+}
+@media (min-width:280px) and (max-width:360px){
+  .goal-row {
+    display: block;
+    justify-content: space-around;
+    
+}
+.mentor-details {
+  display: block;
+  align-items: center;
+  margin-left: 10%;
+ 
+}
+.navbar {
+  background-color: #230238;
+  /* background-size: cover; */
+  color: white;
+  padding: 15px 34px;
+  display: flex;
+  justify-content: space-between;
+  width: 112%;
+  margin-top: -3%;
+  margin-left: -35%;
+  font-size: 12%;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  gap: 0.000001%;
+}
+.navbar li {
+  /* margin-right: -9px; */
+  margin-left: -9px;
+}
+.short-term, .long-term {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: lightslategray;
+  /* margin: 10px; */
+  
+}
+}
+@media (min-width:360px) and (max-width:420px){
   .navbar {
     background-color: #230238;
     /* background-size: cover; */
     color: white;
-    padding: 15px 34px;
+    padding: 10px 34px;
     display: flex;
     justify-content: space-between;
-    width: 120%;
-    margin-top: -25%;
-    margin-left: -45%;
-  }
-  .navbar a {
-    color: white;
-    text-decoration: none;
+    width: 94%;
+    margin-top: -3%;
+    margin-left: -16%;
     font-size: 12%;
-    margin-left: -83%;
-  }
-  .navbar li {
-    margin-right: -85px;
-    
-  }
-  .medal{
-    border-radius: 70%;
-    width: 50%;
-    margin-left: 19%;
-  }
-body{
-  background-color: #B6A4CB;
-  /* margin-left: 3%;
-  margin-right: 3%; */
-}
-input[type="text"] {
-  width: 78%;
-  padding: 5px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-sizing: border-box;
-  margin-bottom: 10px;
-}
- 
-}
-@media  (min-width:401px) and (max-width:600px){ 
-.medal{
-  border-radius: 70%;
-  width: 50%;
-}
-
-body{
-  background-color: #B6A4CB;
-  /* margin-left: 3%;
-  margin-right: 3%; */
-}
-.achievement_page{
-  display: block;
-
-}
-h1{
-  margin-top: 18%;
-}
-.medal{
-  border-radius: 70%;
-  width: 80%;
-  margin-left: 13%;
-}
-input[type="text"] {
-  width: 68%;
-  margin-left: 13%;
-  padding: 5px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-sizing: border-box;
-  margin-bottom: 10px;
-}
-
-button[type="submit"] {
-  margin-left: 13%;
-  padding: 5px 10px;
-  border: none;
-  border-radius: 5px;
-  background-color: #6a0dad;
-  color: #fff;
-  cursor: pointer;
-}
-.navbar {
-  background-color: #230238;
-  background-size: cover;
-  color: white;
-  padding: 10px 10px;
-  display: flex;
-  justify-content: space-between;
-  width: 90%;
-  margin-bottom: -13%;
-}
-  
-  nav ul{
-    list-style: none;
-    margin: 0 2px;
-    padding: 0;
-  }
-  
-  nav li {
-     display: inline-block;
-     padding: 5px 5px;
-     margin-left: -19%;
-     font-size: 12%;
-  }
-  
-  nav a {
-    font-weight: normal;
-    padding: 5px 5px;
-    font-size: .80em;
-  }
-/* body {
-  font-family: Arial, sans-serif;
-  padding: 20px;
-  background-color: #B6A4CB;
-
-} */
-label{
-  margin-left: 13%;
-}
-}
-@media  (min-width:700px) and (max-width:1200px){
-  .achievement_page{
-    display: block;
-  }
-  .medal{
-    border-radius: 70%;
-    width: 80%;
-    margin-left: 13%;
   }
   input[type="text"] {
-    width: 28%;
-    margin-left: 13%;
+    width: 98%;
     padding: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-sizing: border-box;
     margin-bottom: 10px;
+}
+  .achievement_page{
+    display: block;
   }
-  button[type="submit"] {
-    margin-left: 13%;
+  .short-term, .long-term {
+    flex: 1;
+    padding: 4px;
+    border: 1px solid #ccc;
+    background-color: lightslategray;
+    /* margin: 10px; */
+    margin-left: -12%;
+    
+  }
+  .navbar li {
+    /* margin-right: -9px; */
+    margin-left: -12px;
+  }
+  .mentor-details {
+    display: block;
+    align-items: center;
+    margin-left: 10%;
+   
+}
+  .short-term, .long-term {
+    /* flex: 1; */
+    padding: 1px;
+    border: 0.25px solid #ccc;
+    background-color: lightslategray;
+    /* margin: 10px; */
+    width: 115%;
+    
+  }
+  /* body{
+    background-color: #B6A4CB;
+    margin-left: -2%;
+    width: 80.5%;
+    /* margin-right: 3%;background-image: url(images/doubt.webp);
+    background-repeat: no-repeat;
+    object-fit: cover; */
+  
+  */
+  .navbar li {
+    /* margin-right: -9px; */
+    margin-right: -35px;
+   
+    
+  }
+  .navbar ul {
+    list-style-type: none;
+    /* margin: 0; */
+    padding: 10px 23px;
+    display: flex;
+  }
+  .navbar a {
+    color: white;
+    text-decoration: none;
+  }
+}
+@media (min-width:820px) and (max-width:1000px){
+  .achievement_page{
+    display: flex;
+    gap:10%;
+}
+
+#achievements-form {
+    margin-bottom: 20px;
+}
+
+#achievements-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#achievements-list li {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: #e8dff0;
+    color: #333;
+}
+
+input[type="text"] {
+    width: 108%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+button[type="submit"] {
     padding: 5px 10px;
     border: none;
     border-radius: 5px;
     background-color: #6a0dad;
     color: #fff;
     cursor: pointer;
-  }
-  label{
-    margin-left: 13%;
-  }
 }
-  
+}
