@@ -8,6 +8,20 @@
   margin-top: -2%;
   width: 101%;
 }
+.message-buttonn{
+  width: 55%;
+}
+.tasj{
+  display: flex;
+  gap: 160%;
+}
+.finish{
+  display: flex;
+  
+}
+.view{
+  color: white;
+}
 body{
   background-color: #B6A4CB;
   margin-left: 3%;
@@ -19,10 +33,10 @@ body{
     padding: 0;
     display: flex;
   }
-  .checks{
+  .checks button{
     color: white;
     list-style-type: none;
-    background-color: white;
+    width: 145%;
   }
   .create_account{
     color: white;
@@ -35,7 +49,7 @@ body{
     text-decoration: none;
   }
 #message-button{
-  width: 58%;
+  width: 158%;
   background-color: purple;
   padding: 10px;
   border-radius: 26px;
@@ -162,6 +176,7 @@ button:hover {
     margin-right: -3.4%;
     font-size: 12%;
   }
+
   
   body{
     background-color: #B6A4CB;
